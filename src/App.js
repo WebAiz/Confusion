@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import { Provider } from 'react-redux';
 import { ConfigureStore } from './redux/configureStore';
+import fire from './fire'
 
 const store = ConfigureStore();
 class App extends Component {

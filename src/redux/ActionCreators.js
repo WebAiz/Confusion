@@ -47,6 +47,7 @@ export const fetchDishes = () => (dispatch) => {
     dispatch(dishesLoading(true));
 
     return fetch(baseUrl + 'dishes')
+        // return fetch(baseUrlDishes)
         .then(response => {
             if (response.ok) {
                 return response;
@@ -81,6 +82,7 @@ export const addDishes = (dishes) => ({
 
 export const fetchComments = () => (dispatch) => {
     return fetch(baseUrl + 'comments')
+        // return fetch(baseUrlComments)
         .then(response => {
             if (response.ok) {
                 return response;
@@ -114,6 +116,7 @@ export const fetchPromos = () => (dispatch) => {
     dispatch(promosLoading());
 
     return fetch(baseUrl + 'promotions')
+        // return fetch(baseUrlPromotions)
         .then(response => {
             if (response.ok) {
                 return response;
