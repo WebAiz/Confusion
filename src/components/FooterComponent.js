@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
@@ -42,7 +42,7 @@ function Footer(props) {
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-auto">
-                        <p>© Copyright 2018 Ristorante Con Fusion</p>
+                        <p>React course project by Aizada Turarova</p>
                     </div>
                 </div>
             </div>
